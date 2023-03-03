@@ -13,3 +13,29 @@ function funcExecute()
     }
    
 }
+
+
+// insert an element in the arr
+let arr2=[2,4,12,92,16]
+let newEle=10
+let position=2
+
+// logically
+
+// for(let i=arr2.length-1;i>=position;i--)
+// {
+//     if(i>=position)
+//     {
+//         arr2[i+1]=arr2[i]
+//         if(i===position)
+//         {
+//             arr2[i]=newEle; 
+//         }
+//     }
+// }
+// console.log(arr2);
+
+// by method
+// let value=arr2.splice(2,0,"10");
+// console.log(value);
+
